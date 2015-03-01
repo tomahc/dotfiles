@@ -1,0 +1,8 @@
+[user]
+	name = Daniel
+	email = daniel@nullkarma.com
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	slog = log --decorate --graph --oneline

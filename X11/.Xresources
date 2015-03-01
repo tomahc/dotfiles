@@ -1,0 +1,23 @@
+!urxvt.font: 		-misc-fixed-bold-r-normal--15-140-75-75-c-90-iso8859-1
+!urxvt.font: 		-*-terminal-*-*-normal-*-*-*-75-75-*-80-iso8859-1
+urxvt.loginShell:		    false
+urxvt.saveLines:		    10000
+urxvt.internalBorder:		0
+urxvt.externalBorder:		0
+urxvt.scrollBar:		    false
+urxvt.secondaryScroll:		true
+urxvt.scrollBar_floating:	false
+urxvt.inheritPixmap:	    true
+urxvt.shading:	            7
+urxvt.fading:	            55
+!urxvt.tintColor:	        red
+!URxvt.font: xft:Bitstream Vera Sans Mono:pixelsize=12
+URxvt.font: xft:DejaVu Sans Mono:pixelsize=13
+urxvt.foreground:	        white
+urxvt.background:	        black
+
+!aterm.scrollBar:		false
+aterm.saveLines:		65535
+aterm.reverseVideo:		true
+aterm.fading:			90
+aterm.font: 		-*-terminal-medium-*-normal-*-*-*-75-75-*-80-iso8859-1
