@@ -11,8 +11,6 @@
 " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
 
-" file extensions
-autocmd BufRead,BufNewFile *.sls,*.example setlocal sw=2 sts=2 ts=2
 
 " Better copy & paste
 " When you want to paste large blocks of code into vim, press F2 before you
