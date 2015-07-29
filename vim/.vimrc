@@ -41,9 +41,9 @@ noremap <C-n> :nohl<CR>
 "" inoremap <C-n> :nohl<CR>
 
 " Put Brackets around Words
-noremap <Leader>ö i}<Esc>Bi{<Esc>E
-noremap <Leader>ä i)<Esc>Bi(<Esc>E
-noremap <Leader># i]<Esc>Bi[<Esc>E
+noremap <Leader>; i}<Esc>Bi{<Esc>E
+noremap <Leader>' i)<Esc>Bi(<Esc>E
+noremap <Leader>\ i]<Esc>Bi[<Esc>E
 
 " Quicksave command
 "" noremap <C-Z> :update<CR>
@@ -67,7 +67,7 @@ map <c-h> <c-w>h
 " easier moving between tabs
 map <Leader>, <esc>:ar<CR>
 map <Leader>. <esc>:N<CR>
-map <Leader>- <esc>:n<CR>
+map <Leader>/ <esc>:n<CR>
 
 " run script
 map <Leader>r <esc>:! ./%<CR>
@@ -94,7 +94,7 @@ vnoremap > >gv  " better indentation
 " wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
 set t_Co=256
 "color mustang
-color ingle
+colorscheme ingle
 
 
 " Enable syntax highlighting
