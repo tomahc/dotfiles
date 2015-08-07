@@ -25,7 +25,6 @@ set clipboard=unnamed
 "" set mouse=a  " on OSX press ALT and click
 "" set bs=2     " make backspace behave like normal again
 
-
 " Rebind <Leader> key
 " I like to have it here becuase it is easier to reach than the default and
 " it is next to ``m`` and ``n`` which I use for navigating between tabs.
@@ -49,6 +48,11 @@ noremap <Leader>\ i]<Esc>Bi[<Esc>E
 "" vnoremap <C-Z> <C-C>:update<CR>
 "" inoremap <C-Z> <C-O>:update<CR>
 
+"" Remap movement keys
+noremap s h
+noremap n j
+noremap r k
+noremap t l
 
 " Quick quit command
 "" noremap <Leader>e :quit<CR>  " Quit current window
@@ -66,7 +70,7 @@ map <c-h> <c-w>h
 " easier moving between tabs
 map <Leader>, <esc>:ar<CR>
 map <Leader>. <esc>:N<CR>
-map <Leader>/ <esc>:n<CR>
+map <Leader>j <esc>:n<CR>
 
 " run script
 map <Leader>r <esc>:! ./%<CR>
