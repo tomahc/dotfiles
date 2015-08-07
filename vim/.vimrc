@@ -12,7 +12,7 @@
 autocmd! bufwritepost .vimrc source %
 
 " file extensions
-autocmd BufRead,BufNewFile *.sls,*.example setlocal sw=2 sts=2 ts=2
+autocmd BufRead,BufNewFile *.sls,*.example, setlocal sw=2 sts=2 ts=2
 
 " Better copy & paste
 " When you want to paste large blocks of code into vim, press F2 before you
@@ -20,7 +20,6 @@ autocmd BufRead,BufNewFile *.sls,*.example setlocal sw=2 sts=2 ts=2
 
 set pastetoggle=<F2>
 set clipboard=unnamed
-
 
 " Mouse and backspace
 "" set mouse=a  " on OSX press ALT and click
@@ -100,10 +99,11 @@ colorscheme ingle
 " Enable syntax highlighting
 " You need to reload this file for the change to apply
 "" filetype off
-"" filetype plugin indent on
 filetype plugin indent on
 syntax on
 
+set modeline
+set modelines=1
 
 " Showing line numbers and length
 set number  " show line numbers
