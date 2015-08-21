@@ -7,7 +7,7 @@ endif
 let colors_name = "ingle"
 
 """ Normaler Text
-hi Normal       ctermfg=250
+hi Normal       ctermfg=250 ctermbg=234
 hi Comment      ctermfg=242             "dunkel weiss
 hi Constant     ctermfg=208             "orange
 hi String       ctermfg=148             "neon gruen
@@ -54,7 +54,7 @@ hi Todo         ctermfg=14 cterm=bold
 "hi Ignore       ctermfg=
 "hi Error        ctermfg=
 
-hi LineNr       ctermfg=244 ctermbg=232
+hi LineNr       ctermfg=244 ctermbg=234
 hi Cursor       ctermbg=241
 hi StatusLine   ctermfg=253 ctermbg=238 cterm=italic
 hi VertSplit    ctermfg=238 ctermbg=238

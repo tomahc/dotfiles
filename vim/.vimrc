@@ -12,7 +12,7 @@
 autocmd! bufwritepost .vimrc source %
 
 " file extensions
-autocmd BufRead,BufNewFile *.sls,*.example, setlocal sw=2 sts=2 ts=2
+" autocmd BufRead,BufNewFile *.sls,*.example, setlocal sw=2 sts=2 ts=2
 
 " Better copy & paste
 " When you want to paste large blocks of code into vim, press F2 before you
@@ -30,7 +30,6 @@ set clipboard=unnamed
 " it is next to ``m`` and ``n`` which I use for navigating between tabs.
 let mapleader = ","
 
-
 " Bind nohl
 " Removes highlight of your last search
 " ``<C>`` stands for ``CTRL`` and therefore ``<C-n>`` stands for ``CTRL+n``
@@ -39,9 +38,12 @@ noremap <C-n> :nohl<CR>
 "" inoremap <C-n> :nohl<CR>
 
 " Put Brackets around Words
-noremap <Leader>; i}<Esc>Bi{<Esc>E
-noremap <Leader>' i)<Esc>Bi(<Esc>E
-noremap <Leader>\ i]<Esc>Bi[<Esc>E
+noremap <Leader>: a}}<Esc>Bi{{<Esc>E
+noremap <Leader>; a}<Esc>Bi{<Esc>E
+" noremap <Leader>' a)<Esc>Bi(<Esc>E
+noremap <Leader>\ a]<Esc>Bi[<Esc>E
+noremap <Leader>" a"<Esc>Bi"<Esc>E
+noremap <Leader>' a'<Esc>Bi'<Esc>E
 
 " Quicksave command
 "" noremap <C-Z> :update<CR>
